@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CrashLib-iOS' target in the 'CrashLib-iOS' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
