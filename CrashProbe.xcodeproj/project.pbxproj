@@ -954,7 +954,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1E1789EF189B15CF00CE4C53 /* Debug */ = {
+		1E1789EF189B15CF00CE4C53 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -984,7 +984,7 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		1E1789F0189B15CF00CE4C53 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1015,7 +1015,7 @@
 			};
 			name = Release;
 		};
-		1E1789F2189B15CF00CE4C53 /* Debug */ = {
+		1E1789F2189B15CF00CE4C53 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrashLib.framework/Versions/A/CrashLib";
@@ -1047,7 +1047,7 @@
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		1E1789F3189B15CF00CE4C53 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1080,7 +1080,7 @@
 			};
 			name = Release;
 		};
-		FACDBAC3170F0BB60059F0A7 /* Debug */ = {
+		FACDBAC3170F0BB60059F0A7 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1095,7 +1095,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		FACDBAC4170F0BB60059F0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1114,7 +1114,7 @@
 			};
 			name = Release;
 		};
-		FAF5BB8A16F7A69C008BDDDF /* Debug */ = {
+		FAF5BB8A16F7A69C008BDDDF /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -1134,7 +1134,7 @@
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		FAF5BB8B16F7A69C008BDDDF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1157,7 +1157,7 @@
 			};
 			name = Release;
 		};
-		FAF9BCE416D2924600C8BB7D /* Debug */ = {
+		FAF9BCE416D2924600C8BB7D /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1225,7 +1225,7 @@
 					"-Wno-direct-ivar-access",
 				);
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		FAF9BCE516D2924600C8BB7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1297,7 +1297,7 @@
 			};
 			name = Release;
 		};
-		FAF9BCE716D2924600C8BB7D /* Debug */ = {
+		FAF9BCE716D2924600C8BB7D /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CLANG_ENABLE_OBJC_ARC[arch=i386]" = NO;
@@ -1308,7 +1308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
-			name = Debug;
+			name = Debug_DoNotUse;
 		};
 		FAF9BCE816D2924600C8BB7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1329,7 +1329,7 @@
 		1E1789EE189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E1789EF189B15CF00CE4C53 /* Debug */,
+				1E1789EF189B15CF00CE4C53 /* Debug_DoNotUse */,
 				1E1789F0189B15CF00CE4C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1338,7 +1338,7 @@
 		1E1789F1189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E1789F2189B15CF00CE4C53 /* Debug */,
+				1E1789F2189B15CF00CE4C53 /* Debug_DoNotUse */,
 				1E1789F3189B15CF00CE4C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1347,7 +1347,7 @@
 		FACDBAC2170F0BB60059F0A7 /* Build configuration list for PBXNativeTarget "CrashLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FACDBAC3170F0BB60059F0A7 /* Debug */,
+				FACDBAC3170F0BB60059F0A7 /* Debug_DoNotUse */,
 				FACDBAC4170F0BB60059F0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1356,7 +1356,7 @@
 		FAF5BB8916F7A69C008BDDDF /* Build configuration list for PBXNativeTarget "CrashProbeiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAF5BB8A16F7A69C008BDDDF /* Debug */,
+				FAF5BB8A16F7A69C008BDDDF /* Debug_DoNotUse */,
 				FAF5BB8B16F7A69C008BDDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1365,7 +1365,7 @@
 		FAF9BCB016D2924500C8BB7D /* Build configuration list for PBXProject "CrashProbe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAF9BCE416D2924600C8BB7D /* Debug */,
+				FAF9BCE416D2924600C8BB7D /* Debug_DoNotUse */,
 				FAF9BCE516D2924600C8BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1374,7 +1374,7 @@
 		FAF9BCE616D2924600C8BB7D /* Build configuration list for PBXNativeTarget "CrashProbe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAF9BCE716D2924600C8BB7D /* Debug */,
+				FAF9BCE716D2924600C8BB7D /* Debug_DoNotUse */,
 				FAF9BCE816D2924600C8BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
