@@ -103,7 +103,7 @@
 		FACDBAED170F0C650059F0A7 /* CRLCrashCorruptObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5616F4F725008BDDDF /* CRLCrashCorruptObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACDBAEE170F0C650059F0A7 /* CRLCrashNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5C16F5663F008BDDDF /* CRLCrashNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACDBAF1170F0DD60059F0A7 /* CrashLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */; };
-		FACDBAF2170F0DE50059F0A7 /* CrashLib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */; };
+		FACDBAF2170F0DE50059F0A7 /* CrashLib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FAF5BB6216F7763A008BDDDF /* CrashProbe.iconset in Resources */ = {isa = PBXBuildFile; fileRef = FAF5BB6116F77639008BDDDF /* CrashProbe.iconset */; };
 		FAF5BB7316F7A69C008BDDDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF5BB7116F7A69C008BDDDF /* InfoPlist.strings */; };
 		FAF5BB7516F7A69C008BDDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB7416F7A69C008BDDDF /* main.m */; };
@@ -682,7 +682,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BIT;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Bit Stadium GmbH";
 				TargetAttributes = {
 					1E1789DD189B15CF00CE4C53 = {
