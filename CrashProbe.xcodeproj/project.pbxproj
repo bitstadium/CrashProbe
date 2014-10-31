@@ -8,51 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		051F1A0D189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 051F1A0A189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.m */; };
-		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; };
+		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
-		0594494118A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
-		0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594494618A1481300CD93A8 /* CRLFramelessDWARF.h */; };
-		0594494918A1481300CD93A8 /* CRLFramelessDWARF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594494718A1481300CD93A8 /* CRLFramelessDWARF.m */; };
-		0594494A18A1481300CD93A8 /* CRLFramelessDWARF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594494718A1481300CD93A8 /* CRLFramelessDWARF.m */; };
+		0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594494618A1481300CD93A8 /* CRLFramelessDWARF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494C18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */ = {isa = PBXBuildFile; fileRef = 0594494B18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S */; };
-		0594494D18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */ = {isa = PBXBuildFile; fileRef = 0594494B18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S */; };
 		05BB1F0B18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */; };
-		05BB1F0C18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */; };
 		05BB1F1218A1AB7400914852 /* CRLFramelessDWARF_i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */; };
-		05BB1F1318A1AB7400914852 /* CRLFramelessDWARF_i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */; };
 		05BB1F1518A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */; };
-		05BB1F1618A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */; };
 		1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
-		1E12D705191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
-		1E1789E0189B15CF00CE4C53 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1789DF189B15CF00CE4C53 /* XCTest.framework */; };
-		1E1789E5189B15CF00CE4C53 /* libCrashLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1789D1189B15CE00CE4C53 /* libCrashLibiOS.a */; };
-		1E1789EB189B15CF00CE4C53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E1789E9189B15CF00CE4C53 /* InfoPlist.strings */; };
-		1E1789ED189B15CF00CE4C53 /* CrashLib_iOS_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1789EC189B15CF00CE4C53 /* CrashLib_iOS_Tests.m */; };
-		1E1789F4189B15F400CE4C53 /* CRLCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD0916D4338200C8BB7D /* CRLCrash.m */; };
-		1E1789F5189B15F800CE4C53 /* CRLCrashNULL.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD0D16D43B8800C8BB7D /* CRLCrashNULL.m */; };
-		1E1789F6189B160800CE4C53 /* CRLCrashGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD1016D43BE400C8BB7D /* CRLCrashGarbage.m */; };
-		1E1789F7189B160E00CE4C53 /* CRLCrashROPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657016EA5570008F0B0C /* CRLCrashROPage.m */; };
-		1E1789F8189B161100CE4C53 /* CRLCrashNXPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657316EA9A49008F0B0C /* CRLCrashNXPage.m */; };
-		1E1789F9189B161400CE4C53 /* CRLCrashUndefInst.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657616EAE512008F0B0C /* CRLCrashUndefInst.m */; };
-		1E1789FA189B161700CE4C53 /* CRLCrashPrivInst.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657916EAE6F2008F0B0C /* CRLCrashPrivInst.m */; };
-		1E1789FD189B162100CE4C53 /* CRLCrashAbort.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB3C16F4E5F8008BDDDF /* CRLCrashAbort.m */; };
-		1E1789FE189B162400CE4C53 /* CRLCrashTrap.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB3F16F4E648008BDDDF /* CRLCrashTrap.m */; };
-		1E1789FF189B162800CE4C53 /* CRLCrashObjCException.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4216F4E696008BDDDF /* CRLCrashObjCException.m */; };
-		1E178A00189B162B00CE4C53 /* CRLCrashCXXException.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4516F4E71F008BDDDF /* CRLCrashCXXException.mm */; };
-		1E178A01189B163000CE4C53 /* CRLCrashReleasedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4816F4E932008BDDDF /* CRLCrashReleasedObject.m */; };
-		1E178A02189B163300CE4C53 /* CRLCrashObjCMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4B16F4EED8008BDDDF /* CRLCrashObjCMsgSend.m */; };
-		1E178A03189B163800CE4C53 /* CRLCrashCorruptMalloc.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4E16F4F083008BDDDF /* CRLCrashCorruptMalloc.m */; };
-		1E178A04189B163B00CE4C53 /* CRLCrashSmashStackTop.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5116F4F5F6008BDDDF /* CRLCrashSmashStackTop.m */; };
-		1E178A05189B163E00CE4C53 /* CRLCrashSmashStackBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5416F4F6E0008BDDDF /* CRLCrashSmashStackBottom.m */; };
-		1E178A06189B164100CE4C53 /* CRLCrashCorruptObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5716F4F725008BDDDF /* CRLCrashCorruptObjC.m */; };
-		1E178A07189B164500CE4C53 /* CRLCrashNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5D16F56640008BDDDF /* CRLCrashNSLog.m */; };
-		1E773292189B17E800EB3F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773291189B17E800EB3F5A /* Foundation.framework */; };
 		1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773297189B183B00EB3F5A /* SystemConfiguration.framework */; };
 		1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773299189B184200EB3F5A /* UIKit.framework */; };
 		1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773291189B17E800EB3F5A /* Foundation.framework */; };
-		1EA84D29189B1AFE008C7015 /* libCrashLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1789D1189B15CE00CE4C53 /* libCrashLibiOS.a */; };
 		1ECAB6EB1922B1C70005D14E /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6E51922B1C70005D14E /* 29x29.png */; };
 		1ECAB6EC1922B1C70005D14E /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6E61922B1C70005D14E /* 57x57.png */; };
 		1ECAB6ED1922B1C70005D14E /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6E71922B1C70005D14E /* 58x58.png */; };
@@ -62,6 +29,7 @@
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
+		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
 		FACDBAB3170F0BB60059F0A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF9BCB816D2924500C8BB7D /* Cocoa.framework */; };
 		FACDBABD170F0BB60059F0A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACDBABB170F0BB60059F0A7 /* InfoPlist.strings */; };
@@ -104,6 +72,59 @@
 		FACDBAEE170F0C650059F0A7 /* CRLCrashNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5C16F5663F008BDDDF /* CRLCrashNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACDBAF1170F0DD60059F0A7 /* CrashLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */; };
 		FACDBAF2170F0DE50059F0A7 /* CrashLib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FAE023BE1A032271006CC3EE /* CRLCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD0916D4338200C8BB7D /* CRLCrash.m */; };
+		FAE023C01A032271006CC3EE /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
+		FAE023C21A032271006CC3EE /* CRLCrashCXXException.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4516F4E71F008BDDDF /* CRLCrashCXXException.mm */; };
+		FAE023C41A032271006CC3EE /* CRLCrashObjCException.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4216F4E696008BDDDF /* CRLCrashObjCException.m */; };
+		FAE023C61A032271006CC3EE /* CRLCrashNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5D16F56640008BDDDF /* CRLCrashNSLog.m */; };
+		FAE023C81A032271006CC3EE /* CRLCrashObjCMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4B16F4EED8008BDDDF /* CRLCrashObjCMsgSend.m */; };
+		FAE023CA1A032271006CC3EE /* CRLCrashReleasedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4816F4E932008BDDDF /* CRLCrashReleasedObject.m */; };
+		FAE023CC1A032271006CC3EE /* CRLCrashROPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657016EA5570008F0B0C /* CRLCrashROPage.m */; };
+		FAE023CE1A032271006CC3EE /* CRLCrashPrivInst.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657916EAE6F2008F0B0C /* CRLCrashPrivInst.m */; };
+		FAE023D01A032271006CC3EE /* CRLCrashUndefInst.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657616EAE512008F0B0C /* CRLCrashUndefInst.m */; };
+		FAE023D21A032271006CC3EE /* CRLCrashNULL.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD0D16D43B8800C8BB7D /* CRLCrashNULL.m */; };
+		FAE023D41A032271006CC3EE /* CRLCrashGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9BD1016D43BE400C8BB7D /* CRLCrashGarbage.m */; };
+		FAE023D61A032271006CC3EE /* CRLCrashNXPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6657316EA9A49008F0B0C /* CRLCrashNXPage.m */; };
+		FAE023D81A032271006CC3EE /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
+		FAE023DA1A032271006CC3EE /* CRLCrashTrap.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB3F16F4E648008BDDDF /* CRLCrashTrap.m */; };
+		FAE023DC1A032271006CC3EE /* CRLCrashAbort.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB3C16F4E5F8008BDDDF /* CRLCrashAbort.m */; };
+		FAE023DE1A032271006CC3EE /* CRLCrashCorruptMalloc.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB4E16F4F083008BDDDF /* CRLCrashCorruptMalloc.m */; };
+		FAE023E01A032271006CC3EE /* CRLCrashCorruptObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5716F4F725008BDDDF /* CRLCrashCorruptObjC.m */; };
+		FAE023E21A032271006CC3EE /* CRLFramelessDWARF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594494718A1481300CD93A8 /* CRLFramelessDWARF.m */; };
+		FAE023E31A032271006CC3EE /* CRLFramelessDWARF_i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */; };
+		FAE023E41A032271006CC3EE /* CRLFramelessDWARF_x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */; };
+		FAE023E51A032271006CC3EE /* CRLFramelessDWARF_arm32.S in Sources */ = {isa = PBXBuildFile; fileRef = 0594494B18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S */; };
+		FAE023E61A032271006CC3EE /* CRLFramelessDWARF_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */; };
+		FAE023E81A032271006CC3EE /* CRLCrashOverwriteLinkRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 051F1A0A189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.m */; };
+		FAE023EA1A032271006CC3EE /* CRLCrashSmashStackBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5416F4F6E0008BDDDF /* CRLCrashSmashStackBottom.m */; };
+		FAE023EC1A032271006CC3EE /* CRLCrashSmashStackTop.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5116F4F5F6008BDDDF /* CRLCrashSmashStackTop.m */; };
+		FAE023ED1A032271006CC3EE /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
+		FAE023EF1A03229F006CC3EE /* CrashLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FACDBABF170F0BB60059F0A7 /* CrashLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F01A03229F006CC3EE /* CRLCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF9BD0816D4338200C8BB7D /* CRLCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F11A03229F006CC3EE /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F21A03229F006CC3EE /* CRLCrashCXXException.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB4416F4E71F008BDDDF /* CRLCrashCXXException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F31A03229F006CC3EE /* CRLCrashObjCException.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB4116F4E696008BDDDF /* CRLCrashObjCException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F41A03229F006CC3EE /* CRLCrashNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5C16F5663F008BDDDF /* CRLCrashNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F51A03229F006CC3EE /* CRLCrashObjCMsgSend.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB4A16F4EED8008BDDDF /* CRLCrashObjCMsgSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F61A03229F006CC3EE /* CRLCrashReleasedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB4716F4E932008BDDDF /* CRLCrashReleasedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F71A03229F006CC3EE /* CRLCrashROPage.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6656F16EA5570008F0B0C /* CRLCrashROPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F81A03229F006CC3EE /* CRLCrashPrivInst.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6657816EAE6F1008F0B0C /* CRLCrashPrivInst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023F91A03229F006CC3EE /* CRLCrashUndefInst.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6657516EAE511008F0B0C /* CRLCrashUndefInst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FA1A03229F006CC3EE /* CRLCrashNULL.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF9BD0C16D43B8800C8BB7D /* CRLCrashNULL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FB1A03229F006CC3EE /* CRLCrashGarbage.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF9BD0F16D43BE400C8BB7D /* CRLCrashGarbage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FC1A03229F006CC3EE /* CRLCrashNXPage.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6657216EA9A48008F0B0C /* CRLCrashNXPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FD1A03229F006CC3EE /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FE1A03229F006CC3EE /* CRLCrashTrap.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB3E16F4E648008BDDDF /* CRLCrashTrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE023FF1A03229F006CC3EE /* CRLCrashAbort.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB3B16F4E5F8008BDDDF /* CRLCrashAbort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024001A03229F006CC3EE /* CRLCrashCorruptMalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB4D16F4F083008BDDDF /* CRLCrashCorruptMalloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024011A03229F006CC3EE /* CRLCrashCorruptObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5616F4F725008BDDDF /* CRLCrashCorruptObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024021A03229F006CC3EE /* CRLFramelessDWARF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594494618A1481300CD93A8 /* CRLFramelessDWARF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024031A03229F006CC3EE /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024041A03229F006CC3EE /* CRLCrashSmashStackBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5316F4F6DF008BDDDF /* CRLCrashSmashStackBottom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024051A03229F006CC3EE /* CRLCrashSmashStackTop.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5BB5016F4F5F5008BDDDF /* CRLCrashSmashStackTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE024061A03229F006CC3EE /* CrashLib-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAC52E51A030B9E00451D90 /* CrashLib-Bridging-Header.h */; };
+		FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC52F01A03137300451D90 /* CrashLibiOS.framework */; };
+		FAE024081A0322C3006CC3EE /* CrashLibiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC52F01A03137300451D90 /* CrashLibiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAF5BB6216F7763A008BDDDF /* CrashProbe.iconset in Resources */ = {isa = PBXBuildFile; fileRef = FAF5BB6116F77639008BDDDF /* CrashProbe.iconset */; };
 		FAF5BB7316F7A69C008BDDDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF5BB7116F7A69C008BDDDF /* InfoPlist.strings */; };
 		FAF5BB7516F7A69C008BDDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB7416F7A69C008BDDDF /* main.m */; };
@@ -131,26 +152,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E1789E3189B15CF00CE4C53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAF9BCAD16D2924500C8BB7D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E1789D0189B15CE00CE4C53;
-			remoteInfo = "CrashLib iOS 2";
-		};
-		1E7732A0189B186000EB3F5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAF9BCAD16D2924500C8BB7D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E1789D0189B15CE00CE4C53;
-			remoteInfo = "CrashLib iOS";
-		};
 		FACDBAEF170F0DCE0059F0A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAF9BCAD16D2924500C8BB7D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FACDBAB1170F0BB60059F0A7;
 			remoteInfo = CrashLib;
+		};
+		FAE024091A0322C3006CC3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF9BCAD16D2924500C8BB7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAC52EF1A03137300451D90;
+			remoteInfo = CrashLibiOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -166,6 +180,17 @@
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAE0240B1A0322C3006CC3EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAE024081A0322C3006CC3EE /* CrashLibiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -178,11 +203,9 @@
 		0594494B18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm32.S; path = CrashProbe/CRLFramelessDWARF_arm32.S; sourceTree = SOURCE_ROOT; };
 		05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm64.s; path = CrashProbe/CRLFramelessDWARF_arm64.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_i386.s; path = CrashProbe/CRLFramelessDWARF_i386.s; sourceTree = SOURCE_ROOT; };
-		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
+		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_x86_64.s; path = ../CrashProbe/CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
 		1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashAsyncSafeThread.h; path = CrashProbe/CRLCrashAsyncSafeThread.h; sourceTree = SOURCE_ROOT; };
 		1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashAsyncSafeThread.m; path = CrashProbe/CRLCrashAsyncSafeThread.m; sourceTree = SOURCE_ROOT; };
-		1E1789D1189B15CE00CE4C53 /* libCrashLibiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCrashLibiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E1789DE189B15CF00CE4C53 /* CrashLibiOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrashLibiOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1789DF189B15CF00CE4C53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1E1789E8189B15CF00CE4C53 /* CrashLib iOS Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CrashLib iOS Tests-Info.plist"; path = "../CrashLib-iOS Tests/CrashLib iOS Tests-Info.plist"; sourceTree = "<group>"; };
 		1E1789EA189B15CF00CE4C53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -207,6 +230,9 @@
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		FA439218170F134600801CAB /* CRLFakeCXXClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLFakeCXXClass.h; sourceTree = "<group>"; };
 		FA439219170F134600801CAB /* CRLFakeCXXClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CRLFakeCXXClass.mm; sourceTree = "<group>"; };
+		FAAC52E51A030B9E00451D90 /* CrashLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CrashLib-Bridging-Header.h"; path = "../CrashProbe/CrashLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CRLCrashSwift.swift; path = CrashProbe/CRLCrashSwift.swift; sourceTree = SOURCE_ROOT; };
+		FAAC52F01A03137300451D90 /* CrashLibiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrashLibiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB374D016DBEAF00039B8AE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CrashProbe/main.m; sourceTree = SOURCE_ROOT; };
 		FAC6656F16EA5570008F0B0C /* CRLCrashROPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashROPage.h; path = ../CrashProbe/CRLCrashROPage.h; sourceTree = "<group>"; };
 		FAC6657016EA5570008F0B0C /* CRLCrashROPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashROPage.m; path = ../CrashProbe/CRLCrashROPage.m; sourceTree = "<group>"; };
@@ -289,20 +315,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E1789CE189B15CE00CE4C53 /* Frameworks */ = {
+		FAAC52EC1A03137300451D90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E773292189B17E800EB3F5A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E1789DB189B15CF00CE4C53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1789E0189B15CF00CE4C53 /* XCTest.framework in Frameworks */,
-				1E1789E5189B15CF00CE4C53 /* libCrashLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +334,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA84D29189B1AFE008C7015 /* libCrashLibiOS.a in Frameworks */,
+				FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */,
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
@@ -419,6 +435,8 @@
 				FAF5BB5416F4F6E0008BDDDF /* CRLCrashSmashStackBottom.m */,
 				FAF5BB5016F4F5F5008BDDDF /* CRLCrashSmashStackTop.h */,
 				FAF5BB5116F4F5F6008BDDDF /* CRLCrashSmashStackTop.m */,
+				FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */,
+				FAAC52E51A030B9E00451D90 /* CrashLib-Bridging-Header.h */,
 				FACDBAB9170F0BB60059F0A7 /* OS X Supporting Files */,
 				FA4391E3170F113B00801CAB /* iOS Supporting Files */,
 			);
@@ -498,8 +516,7 @@
 				FAF9BCB516D2924500C8BB7D /* CrashProbe.app */,
 				FAF5BB6716F7A69C008BDDDF /* CrashProbeiOS.app */,
 				FACDBAB2170F0BB60059F0A7 /* CrashLib.framework */,
-				1E1789D1189B15CE00CE4C53 /* libCrashLibiOS.a */,
-				1E1789DE189B15CF00CE4C53 /* CrashLibiOS Tests.xctest */,
+				FAAC52F01A03137300451D90 /* CrashLibiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -553,6 +570,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		FAAC52ED1A03137300451D90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE023EF1A03229F006CC3EE /* CrashLib.h in Headers */,
+				FAE023F01A03229F006CC3EE /* CRLCrash.h in Headers */,
+				FAE023F11A03229F006CC3EE /* CRLCrashAsyncSafeThread.h in Headers */,
+				FAE023F21A03229F006CC3EE /* CRLCrashCXXException.h in Headers */,
+				FAE023F31A03229F006CC3EE /* CRLCrashObjCException.h in Headers */,
+				FAE023F41A03229F006CC3EE /* CRLCrashNSLog.h in Headers */,
+				FAE023F51A03229F006CC3EE /* CRLCrashObjCMsgSend.h in Headers */,
+				FAE023F61A03229F006CC3EE /* CRLCrashReleasedObject.h in Headers */,
+				FAE023F71A03229F006CC3EE /* CRLCrashROPage.h in Headers */,
+				FAE023F81A03229F006CC3EE /* CRLCrashPrivInst.h in Headers */,
+				FAE023F91A03229F006CC3EE /* CRLCrashUndefInst.h in Headers */,
+				FAE023FA1A03229F006CC3EE /* CRLCrashNULL.h in Headers */,
+				FAE023FB1A03229F006CC3EE /* CRLCrashGarbage.h in Headers */,
+				FAE023FC1A03229F006CC3EE /* CRLCrashNXPage.h in Headers */,
+				FAE023FD1A03229F006CC3EE /* CRLCrashStackGuard.h in Headers */,
+				FAE023FE1A03229F006CC3EE /* CRLCrashTrap.h in Headers */,
+				FAE023FF1A03229F006CC3EE /* CRLCrashAbort.h in Headers */,
+				FAE024001A03229F006CC3EE /* CRLCrashCorruptMalloc.h in Headers */,
+				FAE024011A03229F006CC3EE /* CRLCrashCorruptObjC.h in Headers */,
+				FAE024021A03229F006CC3EE /* CRLFramelessDWARF.h in Headers */,
+				FAE024031A03229F006CC3EE /* CRLCrashOverwriteLinkRegister.h in Headers */,
+				FAE024041A03229F006CC3EE /* CRLCrashSmashStackBottom.h in Headers */,
+				FAE024051A03229F006CC3EE /* CRLCrashSmashStackTop.h in Headers */,
+				FAE024061A03229F006CC3EE /* CrashLib-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FACDBAAF170F0BB60059F0A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -568,15 +616,15 @@
 				FACDBAE4170F0C640059F0A7 /* CRLCrashAbort.h in Headers */,
 				FACDBAE5170F0C640059F0A7 /* CRLCrashTrap.h in Headers */,
 				FACDBAE6170F0C640059F0A7 /* CRLCrashObjCException.h in Headers */,
-				0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */,
 				FACDBAE7170F0C640059F0A7 /* CRLCrashCXXException.h in Headers */,
 				FACDBAE8170F0C640059F0A7 /* CRLCrashReleasedObject.h in Headers */,
 				FACDBAE9170F0C650059F0A7 /* CRLCrashObjCMsgSend.h in Headers */,
 				FACDBAEA170F0C650059F0A7 /* CRLCrashCorruptMalloc.h in Headers */,
-				0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */,
 				FACDBAEB170F0C650059F0A7 /* CRLCrashSmashStackTop.h in Headers */,
 				051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */,
 				1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */,
+				0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */,
+				0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */,
 				FACDBAEC170F0C650059F0A7 /* CRLCrashSmashStackBottom.h in Headers */,
 				FACDBAED170F0C650059F0A7 /* CRLCrashCorruptObjC.h in Headers */,
 				FACDBAEE170F0C650059F0A7 /* CRLCrashNSLog.h in Headers */,
@@ -586,39 +634,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E1789D0189B15CE00CE4C53 /* CrashLibiOS */ = {
+		FAAC52EF1A03137300451D90 /* CrashLibiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E1789EE189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS" */;
+			buildConfigurationList = FAAC53091A03137300451D90 /* Build configuration list for PBXNativeTarget "CrashLibiOS" */;
 			buildPhases = (
-				1E1789CD189B15CE00CE4C53 /* Sources */,
-				1E1789CE189B15CE00CE4C53 /* Frameworks */,
+				FAAC52EB1A03137300451D90 /* Sources */,
+				FAAC52EC1A03137300451D90 /* Frameworks */,
+				FAAC52ED1A03137300451D90 /* Headers */,
+				FAAC52EE1A03137300451D90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CrashLibiOS;
-			productName = "CrashLib iOS 2";
-			productReference = 1E1789D1189B15CE00CE4C53 /* libCrashLibiOS.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1E1789DD189B15CF00CE4C53 /* CrashLibiOS Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E1789F1189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS Tests" */;
-			buildPhases = (
-				1E1789DA189B15CF00CE4C53 /* Sources */,
-				1E1789DB189B15CF00CE4C53 /* Frameworks */,
-				1E1789DC189B15CF00CE4C53 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E1789E4189B15CF00CE4C53 /* PBXTargetDependency */,
-			);
-			name = "CrashLibiOS Tests";
-			productName = "CrashLib iOS 2Tests";
-			productReference = 1E1789DE189B15CF00CE4C53 /* CrashLibiOS Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productName = "CrashProbeiOS-Swift";
+			productReference = FAAC52F01A03137300451D90 /* CrashLibiOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		FACDBAB1170F0BB60059F0A7 /* CrashLib */ = {
 			isa = PBXNativeTarget;
@@ -645,11 +677,12 @@
 				FAF5BB6316F7A69C008BDDDF /* Sources */,
 				FAF5BB6416F7A69C008BDDDF /* Frameworks */,
 				FAF5BB6516F7A69C008BDDDF /* Resources */,
+				FAE0240B1A0322C3006CC3EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E7732A1189B186000EB3F5A /* PBXTargetDependency */,
+				FAE0240A1A0322C3006CC3EE /* PBXTargetDependency */,
 			);
 			name = CrashProbeiOS;
 			productName = "CrashProbe iOS";
@@ -685,8 +718,8 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Bit Stadium GmbH";
 				TargetAttributes = {
-					1E1789DD189B15CF00CE4C53 = {
-						TestTargetID = FACDBAB1170F0BB60059F0A7;
+					FAAC52EF1A03137300451D90 = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -703,8 +736,7 @@
 			projectRoot = "";
 			targets = (
 				FACDBAB1170F0BB60059F0A7 /* CrashLib */,
-				1E1789D0189B15CE00CE4C53 /* CrashLibiOS */,
-				1E1789DD189B15CF00CE4C53 /* CrashLibiOS Tests */,
+				FAAC52EF1A03137300451D90 /* CrashLibiOS */,
 				FAF9BCB416D2924500C8BB7D /* CrashProbe */,
 				FAF5BB6616F7A69C008BDDDF /* CrashProbeiOS */,
 			);
@@ -712,11 +744,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E1789DC189B15CF00CE4C53 /* Resources */ = {
+		FAAC52EE1A03137300451D90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1789EB189B15CF00CE4C53 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,44 +800,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E1789CD189B15CE00CE4C53 /* Sources */ = {
+		FAAC52EB1A03137300451D90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BB1F0C18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s in Sources */,
-				1E1789F4189B15F400CE4C53 /* CRLCrash.m in Sources */,
-				05BB1F1618A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */,
-				1E178A01189B163000CE4C53 /* CRLCrashReleasedObject.m in Sources */,
-				1E1789FE189B162400CE4C53 /* CRLCrashTrap.m in Sources */,
-				0594494A18A1481300CD93A8 /* CRLFramelessDWARF.m in Sources */,
-				1E1789F9189B161400CE4C53 /* CRLCrashUndefInst.m in Sources */,
-				1E12D705191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */,
-				1E1789FD189B162100CE4C53 /* CRLCrashAbort.m in Sources */,
-				1E1789FF189B162800CE4C53 /* CRLCrashObjCException.m in Sources */,
-				1E1789F6189B160800CE4C53 /* CRLCrashGarbage.m in Sources */,
-				1E178A07189B164500CE4C53 /* CRLCrashNSLog.m in Sources */,
-				1E178A04189B163B00CE4C53 /* CRLCrashSmashStackTop.m in Sources */,
-				1E1789FA189B161700CE4C53 /* CRLCrashPrivInst.m in Sources */,
-				05BB1F1318A1AB7400914852 /* CRLFramelessDWARF_i386.s in Sources */,
-				1E178A05189B163E00CE4C53 /* CRLCrashSmashStackBottom.m in Sources */,
-				1E1789F5189B15F800CE4C53 /* CRLCrashNULL.m in Sources */,
-				1E178A03189B163800CE4C53 /* CRLCrashCorruptMalloc.m in Sources */,
-				0594494D18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */,
-				1E1789F8189B161100CE4C53 /* CRLCrashNXPage.m in Sources */,
-				0594494118A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */,
-				1E1789F7189B160E00CE4C53 /* CRLCrashROPage.m in Sources */,
-				051F1A0D189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.m in Sources */,
-				1E178A06189B164100CE4C53 /* CRLCrashCorruptObjC.m in Sources */,
-				1E178A00189B162B00CE4C53 /* CRLCrashCXXException.mm in Sources */,
-				1E178A02189B163300CE4C53 /* CRLCrashObjCMsgSend.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E1789DA189B15CF00CE4C53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1789ED189B15CF00CE4C53 /* CrashLib_iOS_Tests.m in Sources */,
+				FAE023BE1A032271006CC3EE /* CRLCrash.m in Sources */,
+				FAE023C01A032271006CC3EE /* CRLCrashAsyncSafeThread.m in Sources */,
+				FAE023C21A032271006CC3EE /* CRLCrashCXXException.mm in Sources */,
+				FAE023C41A032271006CC3EE /* CRLCrashObjCException.m in Sources */,
+				FAE023C61A032271006CC3EE /* CRLCrashNSLog.m in Sources */,
+				FAE023C81A032271006CC3EE /* CRLCrashObjCMsgSend.m in Sources */,
+				FAE023CA1A032271006CC3EE /* CRLCrashReleasedObject.m in Sources */,
+				FAE023CC1A032271006CC3EE /* CRLCrashROPage.m in Sources */,
+				FAE023CE1A032271006CC3EE /* CRLCrashPrivInst.m in Sources */,
+				FAE023D01A032271006CC3EE /* CRLCrashUndefInst.m in Sources */,
+				FAE023D21A032271006CC3EE /* CRLCrashNULL.m in Sources */,
+				FAE023D41A032271006CC3EE /* CRLCrashGarbage.m in Sources */,
+				FAE023D61A032271006CC3EE /* CRLCrashNXPage.m in Sources */,
+				FAE023D81A032271006CC3EE /* CRLCrashStackGuard.m in Sources */,
+				FAE023DA1A032271006CC3EE /* CRLCrashTrap.m in Sources */,
+				FAE023DC1A032271006CC3EE /* CRLCrashAbort.m in Sources */,
+				FAE023DE1A032271006CC3EE /* CRLCrashCorruptMalloc.m in Sources */,
+				FAE023E01A032271006CC3EE /* CRLCrashCorruptObjC.m in Sources */,
+				FAE023E21A032271006CC3EE /* CRLFramelessDWARF.m in Sources */,
+				FAE023E31A032271006CC3EE /* CRLFramelessDWARF_i386.s in Sources */,
+				FAE023E41A032271006CC3EE /* CRLFramelessDWARF_x86_64.s in Sources */,
+				FAE023E51A032271006CC3EE /* CRLFramelessDWARF_arm32.S in Sources */,
+				FAE023E61A032271006CC3EE /* CRLFramelessDWARF_arm64.s in Sources */,
+				FAE023E81A032271006CC3EE /* CRLCrashOverwriteLinkRegister.m in Sources */,
+				FAE023EA1A032271006CC3EE /* CRLCrashSmashStackBottom.m in Sources */,
+				FAE023EC1A032271006CC3EE /* CRLCrashSmashStackTop.m in Sources */,
+				FAE023ED1A032271006CC3EE /* CRLCrashSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,7 +843,6 @@
 				05BB1F1518A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */,
 				FACDBAC7170F0C490059F0A7 /* CRLCrashNULL.m in Sources */,
 				FACDBAC8170F0C490059F0A7 /* CRLCrashGarbage.m in Sources */,
-				0594494918A1481300CD93A8 /* CRLFramelessDWARF.m in Sources */,
 				FACDBAC9170F0C490059F0A7 /* CRLCrashROPage.m in Sources */,
 				1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */,
 				FACDBACA170F0C490059F0A7 /* CRLCrashNXPage.m in Sources */,
@@ -835,6 +858,7 @@
 				0594494C18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */,
 				FACDBAD5170F0C490059F0A7 /* CRLCrashCorruptMalloc.m in Sources */,
 				0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */,
+				FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */,
 				FACDBAD6170F0C490059F0A7 /* CRLCrashSmashStackTop.m in Sources */,
 				FACDBAD7170F0C490059F0A7 /* CRLCrashSmashStackBottom.m in Sources */,
 				FACDBAD8170F0C490059F0A7 /* CRLCrashCorruptObjC.m in Sources */,
@@ -868,20 +892,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E1789E4189B15CF00CE4C53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E1789D0189B15CE00CE4C53 /* CrashLibiOS */;
-			targetProxy = 1E1789E3189B15CF00CE4C53 /* PBXContainerItemProxy */;
-		};
-		1E7732A1189B186000EB3F5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E1789D0189B15CE00CE4C53 /* CrashLibiOS */;
-			targetProxy = 1E7732A0189B186000EB3F5A /* PBXContainerItemProxy */;
-		};
 		FACDBAF0170F0DCE0059F0A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FACDBAB1170F0BB60059F0A7 /* CrashLib */;
 			targetProxy = FACDBAEF170F0DCE0059F0A7 /* PBXContainerItemProxy */;
+		};
+		FAE0240A1A0322C3006CC3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAC52EF1A03137300451D90 /* CrashLibiOS */;
+			targetProxy = FAE024091A0322C3006CC3EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -954,105 +973,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1E1789EF189B15CF00CE4C53 /* Debug_DoNotUse */ = {
+		FAAC530A1A03137300451D90 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				DSTROOT = /tmp/CrashLib_iOS_2.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CrashLib-iOS/CrashLib-iOS-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-			};
-			name = Debug_DoNotUse;
-		};
-		1E1789F0189B15CF00CE4C53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/CrashLib_iOS_2.dst;
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CrashLib-iOS/CrashLib-iOS-Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1E1789F2189B15CF00CE4C53 /* Debug_DoNotUse */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrashLib.framework/Versions/A/CrashLib";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CrashLib iOS/CrashLib iOS 2-Prefix.pch";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				INFOPLIST_FILE = "CrashLib iOS Tests/CrashLib iOS 2Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CrashLib-iOS/CrashLib-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug_DoNotUse;
 		};
-		1E1789F3189B15CF00CE4C53 /* Release */ = {
+		FAAC530B1A03137300451D90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrashLib.framework/Versions/A/CrashLib";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -1060,30 +1038,39 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CrashLib iOS/CrashLib iOS 2-Prefix.pch";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				INFOPLIST_FILE = "CrashLib iOS Tests/CrashLib iOS 2Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "$(SRCROOT)/CrashLib-iOS/CrashLib-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = xctest;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		FACDBAC3170F0BB60059F0A7 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1091,6 +1078,7 @@
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
 				INFOPLIST_FILE = "CrashLib/CrashLib-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -1100,7 +1088,9 @@
 		FACDBAC4170F0BB60059F0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1108,6 +1098,7 @@
 				GCC_PREFIX_HEADER = "CrashLib/CrashLib-Prefix.pch";
 				INFOPLIST_FILE = "CrashLib/CrashLib-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -1121,6 +1112,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
@@ -1128,10 +1120,12 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CrashProbe\"";
 				INFOPLIST_FILE = "CrashProbe iOS/CrashProbe iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_DoNotUse;
@@ -1143,15 +1137,18 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CrashProbe\"";
 				INFOPLIST_FILE = "CrashProbe iOS/CrashProbe iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1178,6 +1175,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1212,6 +1210,8 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-fno-optimize-sibling-calls";
 				SDKROOT = macosx;
@@ -1248,6 +1248,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CONFIGURATION_$(CONFIGURATION)",
@@ -1282,6 +1283,8 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fno-optimize-sibling-calls";
 				SDKROOT = macosx;
@@ -1305,6 +1308,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1318,6 +1322,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1326,20 +1331,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E1789EE189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS" */ = {
+		FAAC53091A03137300451D90 /* Build configuration list for PBXNativeTarget "CrashLibiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E1789EF189B15CF00CE4C53 /* Debug_DoNotUse */,
-				1E1789F0189B15CF00CE4C53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E1789F1189B15CF00CE4C53 /* Build configuration list for PBXNativeTarget "CrashLibiOS Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E1789F2189B15CF00CE4C53 /* Debug_DoNotUse */,
-				1E1789F3189B15CF00CE4C53 /* Release */,
+				FAAC530A1A03137300451D90 /* Debug_DoNotUse */,
+				FAAC530B1A03137300451D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

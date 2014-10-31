@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E1789D0189B15CE00CE4C53"
-               BuildableName = "libCrashLibiOS.a"
-               BlueprintName = "CrashLibiOS"
+               BlueprintIdentifier = "FAF5BB6616F7A69C008BDDDF"
+               BuildableName = "CrashProbeiOS.app"
+               BlueprintName = "CrashProbeiOS"
                ReferencedContainer = "container:CrashProbe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,36 +28,35 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug_DoNotUse">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E1789DD189B15CF00CE4C53"
-               BuildableName = "CrashLibiOS Tests.xctest"
-               BlueprintName = "CrashLibiOS Tests"
-               ReferencedContainer = "container:CrashProbe.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAF5BB6616F7A69C008BDDDF"
+            BuildableName = "CrashProbeiOS.app"
+            BlueprintName = "CrashProbeiOS"
+            ReferencedContainer = "container:CrashProbe.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug_DoNotUse"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E1789D0189B15CE00CE4C53"
-            BuildableName = "libCrashLibiOS.a"
-            BlueprintName = "CrashLibiOS"
+            BlueprintIdentifier = "FAF5BB6616F7A69C008BDDDF"
+            BuildableName = "CrashProbeiOS.app"
+            BlueprintName = "CrashProbeiOS"
             ReferencedContainer = "container:CrashProbe.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -67,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAF5BB6616F7A69C008BDDDF"
+            BuildableName = "CrashProbeiOS.app"
+            BlueprintName = "CrashProbeiOS"
+            ReferencedContainer = "container:CrashProbe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug_DoNotUse">
