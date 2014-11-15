@@ -26,3 +26,4 @@
 #import <CrashLib/CRLCrashCorruptObjC.h>
 #import <CrashLib/CRLCrashNSLog.h>
 #import <CrashLib/CRLCrashAsyncSafeThread.h>
+#import <CrashLib/CRLCrashManualNotify.h>

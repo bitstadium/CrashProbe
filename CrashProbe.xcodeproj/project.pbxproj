@@ -28,6 +28,10 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
+		79916B461A16D7B700219733 /* CRLCrashManualNotify.h in Headers */ = {isa = PBXBuildFile; fileRef = 79916B441A16D7B700219733 /* CRLCrashManualNotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79916B471A16D7B700219733 /* CRLCrashManualNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 79916B451A16D7B700219733 /* CRLCrashManualNotify.m */; };
+		79916B481A16D7B700219733 /* CRLCrashManualNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 79916B451A16D7B700219733 /* CRLCrashManualNotify.m */; };
+		79916B491A16D7B700219733 /* CRLCrashManualNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 79916B451A16D7B700219733 /* CRLCrashManualNotify.m */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -225,6 +229,8 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		79916B441A16D7B700219733 /* CRLCrashManualNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashManualNotify.h; path = CrashProbe/CRLCrashManualNotify.h; sourceTree = SOURCE_ROOT; };
+		79916B451A16D7B700219733 /* CRLCrashManualNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashManualNotify.m; path = CrashProbe/CRLCrashManualNotify.m; sourceTree = SOURCE_ROOT; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -395,6 +401,8 @@
 				FAF5BB4516F4E71F008BDDDF /* CRLCrashCXXException.mm */,
 				FAF5BB4116F4E696008BDDDF /* CRLCrashObjCException.h */,
 				FAF5BB4216F4E696008BDDDF /* CRLCrashObjCException.m */,
+				79916B441A16D7B700219733 /* CRLCrashManualNotify.h */,
+				79916B451A16D7B700219733 /* CRLCrashManualNotify.m */,
 				FAF5BB5C16F5663F008BDDDF /* CRLCrashNSLog.h */,
 				FAF5BB5D16F56640008BDDDF /* CRLCrashNSLog.m */,
 				FAF5BB4A16F4EED8008BDDDF /* CRLCrashObjCMsgSend.h */,
@@ -618,6 +626,7 @@
 				FACDBAE6170F0C640059F0A7 /* CRLCrashObjCException.h in Headers */,
 				FACDBAE7170F0C640059F0A7 /* CRLCrashCXXException.h in Headers */,
 				FACDBAE8170F0C640059F0A7 /* CRLCrashReleasedObject.h in Headers */,
+				79916B461A16D7B700219733 /* CRLCrashManualNotify.h in Headers */,
 				FACDBAE9170F0C650059F0A7 /* CRLCrashObjCMsgSend.h in Headers */,
 				FACDBAEA170F0C650059F0A7 /* CRLCrashCorruptMalloc.h in Headers */,
 				FACDBAEB170F0C650059F0A7 /* CRLCrashSmashStackTop.h in Headers */,
@@ -844,6 +853,7 @@
 				FACDBAC7170F0C490059F0A7 /* CRLCrashNULL.m in Sources */,
 				FACDBAC8170F0C490059F0A7 /* CRLCrashGarbage.m in Sources */,
 				FACDBAC9170F0C490059F0A7 /* CRLCrashROPage.m in Sources */,
+				79916B471A16D7B700219733 /* CRLCrashManualNotify.m in Sources */,
 				1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */,
 				FACDBACA170F0C490059F0A7 /* CRLCrashNXPage.m in Sources */,
 				FACDBACB170F0C490059F0A7 /* CRLCrashUndefInst.m in Sources */,
@@ -872,6 +882,7 @@
 			files = (
 				FAF5BB7516F7A69C008BDDDF /* main.m in Sources */,
 				FAF5BB7916F7A69C008BDDDF /* CRLAppDelegate.m in Sources */,
+				79916B491A16D7B700219733 /* CRLCrashManualNotify.m in Sources */,
 				FAF5BB8516F7A69C008BDDDF /* CRLMasterViewController.m in Sources */,
 				FAF5BB8816F7A69C008BDDDF /* CRLDetailViewController.m in Sources */,
 				FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */,
@@ -885,6 +896,7 @@
 				FAF9BCCC16D2924500C8BB7D /* CRLAppDelegate.m in Sources */,
 				FAF9BD0216D4311500C8BB7D /* CRLCrashListViewController.m in Sources */,
 				FAF9BD0516D4312D00C8BB7D /* CRLMainWindowController.m in Sources */,
+				79916B481A16D7B700219733 /* CRLCrashManualNotify.m in Sources */,
 				FAB374D116DBEAF00039B8AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
