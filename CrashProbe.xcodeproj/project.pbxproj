@@ -10,11 +10,6 @@
 		051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
-		0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594494618A1481300CD93A8 /* CRLFramelessDWARF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0594494C18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */ = {isa = PBXBuildFile; fileRef = 0594494B18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S */; };
-		05BB1F0B18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */; };
-		05BB1F1218A1AB7400914852 /* CRLFramelessDWARF_i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */; };
-		05BB1F1518A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */; };
 		1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
 		1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773297189B183B00EB3F5A /* SystemConfiguration.framework */; };
@@ -623,7 +618,6 @@
 				FACDBAEB170F0C650059F0A7 /* CRLCrashSmashStackTop.h in Headers */,
 				051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */,
 				1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */,
-				0594494818A1481300CD93A8 /* CRLFramelessDWARF.h in Headers */,
 				0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */,
 				FACDBAEC170F0C650059F0A7 /* CRLCrashSmashStackBottom.h in Headers */,
 				FACDBAED170F0C650059F0A7 /* CRLCrashCorruptObjC.h in Headers */,
@@ -838,9 +832,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BB1F0B18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s in Sources */,
 				FACDBAC6170F0C490059F0A7 /* CRLCrash.m in Sources */,
-				05BB1F1518A1AB8500914852 /* CRLFramelessDWARF_x86_64.s in Sources */,
 				FACDBAC7170F0C490059F0A7 /* CRLCrashNULL.m in Sources */,
 				FACDBAC8170F0C490059F0A7 /* CRLCrashGarbage.m in Sources */,
 				FACDBAC9170F0C490059F0A7 /* CRLCrashROPage.m in Sources */,
@@ -850,12 +842,10 @@
 				FACDBACC170F0C490059F0A7 /* CRLCrashPrivInst.m in Sources */,
 				FACDBACF170F0C490059F0A7 /* CRLCrashAbort.m in Sources */,
 				FACDBAD0170F0C490059F0A7 /* CRLCrashTrap.m in Sources */,
-				05BB1F1218A1AB7400914852 /* CRLFramelessDWARF_i386.s in Sources */,
 				FACDBAD1170F0C490059F0A7 /* CRLCrashObjCException.m in Sources */,
 				FACDBAD2170F0C490059F0A7 /* CRLCrashCXXException.mm in Sources */,
 				FACDBAD3170F0C490059F0A7 /* CRLCrashReleasedObject.m in Sources */,
 				FACDBAD4170F0C490059F0A7 /* CRLCrashObjCMsgSend.m in Sources */,
-				0594494C18A148DA00CD93A8 /* CRLFramelessDWARF_arm32.S in Sources */,
 				FACDBAD5170F0C490059F0A7 /* CRLCrashCorruptMalloc.m in Sources */,
 				0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */,
 				FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */,
