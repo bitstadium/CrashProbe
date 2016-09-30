@@ -31,8 +31,8 @@ class CRLCrashSwift: CRLCrash {
     override var title: String { return "Swift"; }
     override var desc: String { return "Trigger a crash from inside a Swift method."; }
     override func crash() {
-        let buf = UnsafeMutablePointer<UInt>();
+        let buf: UnsafeMutablePointer<UInt>? = nil;
         
-        buf[1] = 1;
+        buf![1] = 1;
     }
 }

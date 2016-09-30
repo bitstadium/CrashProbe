@@ -709,11 +709,21 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BIT;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Bit Stadium GmbH";
 				TargetAttributes = {
 					FAAC52EF1A03137300451D90 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
+					};
+					FACDBAB1170F0BB60059F0A7 = {
+						LastSwiftMigration = 0800;
+					};
+					FAF5BB6616F7A69C008BDDDF = {
+						LastSwiftMigration = 0800;
+					};
+					FAF9BCB416D2924500C8BB7D = {
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -981,6 +991,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1007,11 +1018,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1030,6 +1043,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1044,10 +1058,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1069,8 +1085,10 @@
 				INFOPLIST_FILE = "CrashLib/CrashLib-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug_DoNotUse;
@@ -1089,8 +1107,10 @@
 				INFOPLIST_FILE = "CrashLib/CrashLib-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -1098,11 +1118,11 @@
 		FAF5BB8A16F7A69C008BDDDF /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
@@ -1113,9 +1133,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_DoNotUse;
@@ -1123,11 +1145,11 @@
 		FAF5BB8B16F7A69C008BDDDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
@@ -1136,9 +1158,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashLib/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1147,6 +1171,7 @@
 		FAF9BCE416D2924600C8BB7D /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
@@ -1158,16 +1183,21 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				COPY_PHASE_STRIP = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"CONFIGURATION_$(CONFIGURATION)",
@@ -1221,6 +1251,7 @@
 		FAF9BCE516D2924600C8BB7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
@@ -1232,16 +1263,20 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CONFIGURATION_$(CONFIGURATION)",
 					"NS_BLOCK_ASSERTIONS=1",
@@ -1280,6 +1315,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fno-optimize-sibling-calls";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				WARNING_CFLAGS = (
 					"-Wno-pedantic",
 					"-Wno-objc-missing-property-synthesis",
@@ -1301,7 +1337,9 @@
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_DoNotUse;
@@ -1315,7 +1353,9 @@
 				GCC_PREFIX_HEADER = "CrashProbe/CrashProbe-Prefix.pch";
 				INFOPLIST_FILE = "CrashProbe/CrashProbe-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
