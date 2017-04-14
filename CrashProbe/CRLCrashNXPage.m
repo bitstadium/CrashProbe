@@ -25,6 +25,7 @@
  */
 
 #import "CRLCrashNXPage.h"
+#import <sys/mman.h>
 
 @implementation CRLCrashNXPage
 
@@ -34,7 +35,11 @@
 
 - (void)crash
 {
-   ((void (*)(void))NULL)();
+	void *ptr = mmap(NULL, (size_t)getpagesize(), PROT_READ | PROT_WRITE, MAP_ANON | MAP_PRIVATE, -1, 0);
+	
+	if (ptr != MAP_FAILED) {
+        ((void (*)(void))ptr)();
+    }
 }
 
 @end
