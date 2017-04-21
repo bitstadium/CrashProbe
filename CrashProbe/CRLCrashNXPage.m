@@ -33,13 +33,20 @@
 - (NSString *)title { return @"Jump into an NX page"; }
 - (NSString *)desc { return @"Call a function pointer to memory in a non-executable page."; }
 
-- (void)crash
+static void __attribute__((noinline)) real_NXcrash(void)
 {
 	void *ptr = mmap(NULL, (size_t)getpagesize(), PROT_READ | PROT_WRITE, MAP_ANON | MAP_PRIVATE, -1, 0);
 	
 	if (ptr != MAP_FAILED) {
         ((void (*)(void))ptr)();
     }
+    
+    munmap(ptr, (size_t)getpagesize());
+}
+
+- (void)crash
+{
+    real_NXcrash();
 }
 
 @end
