@@ -32,7 +32,8 @@
 - (NSString *)title { return @"Smash the top of the stack"; }
 - (NSString *)desc { return @""
   "Overwrite data above the current stack pointer. This will destroy the current stack trace. "
-  "Reporting of this crash is expected to fail. Succeeding is basically luck.";
+  "Reporting of this crash is expected to fail. Succeeding is basically luck."
+  "Apple added additional checks that prevent this crash from happening in iOS 12 and up.";
 }
 
 - (void)crash
